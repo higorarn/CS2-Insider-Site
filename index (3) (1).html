@@ -1,0 +1,460 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Sartoni Steakhouse | Carnes nobres, petiscos, burgers e drinks</title>
+<meta name="description" content="Sartoni Steakhouse: carnes nobres, petiscos, burgers e drinks. Unidades em Juiz de Fora e Muriaé (MG) e Vila Velha (ES). Escolha a cidade, veja os horários e peça.">
+<link rel="icon" type="image/png" href="data:image/png;base64,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">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@600;800;900&family=Public+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --carvao:#17120F;
+    --madeira:#2A1E18;
+    --madeira-2:#3A2A21;
+    --brasa:#A11518;
+    --brasa-vivo:#E0272C;
+    --brasa-hover:#C21E22;
+    --logo:url(data:image/png;base64,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);
+    --osso:#EADFD0;
+    --osso-suave:#BFB1A0;
+    --giz:#F1EFEC;
+    --tinta:#231A16;
+    --tinta-suave:#6A5D55;
+    --linha:#D9D3CC;
+    --ok:#2F6B3F;
+    --display:"Big Shoulders Display", Impact, sans-serif;
+    --corpo:"Public Sans", system-ui, sans-serif;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  html{scroll-behavior:smooth}
+  body{font-family:var(--corpo);background:var(--carvao);color:var(--osso);line-height:1.6;font-size:17px;-webkit-font-smoothing:antialiased}
+  a{color:inherit}
+  [hidden]{display:none !important}
+  :focus-visible{outline:3px solid var(--brasa-vivo);outline-offset:3px}
+  .wrap{max-width:1160px;margin:0 auto;padding:0 22px}
+
+  /* topo */
+  header{position:sticky;top:0;z-index:20;background:rgba(23,18,15,.95);backdrop-filter:blur(8px);border-bottom:1px solid #2F241D}
+  .nav{display:flex;align-items:center;justify-content:space-between;height:64px}
+  .marca{font-family:var(--display);font-weight:900;font-size:1.7rem;letter-spacing:.02em;text-decoration:none;color:var(--osso);line-height:1}
+  .marca span{font-weight:600;color:var(--osso-suave);margin-left:.35em}
+  .nav ul{display:flex;gap:28px;list-style:none;font-size:.95rem;font-weight:500}
+  .nav ul a{text-decoration:none;color:var(--osso-suave)}
+  .nav ul a:hover{color:var(--osso)}
+
+  .btn{display:inline-block;padding:13px 24px;border-radius:2px;font-weight:700;text-decoration:none;font-size:1rem;line-height:1.3;border:2px solid transparent;background:transparent;cursor:pointer;font-family:inherit;transition:background .2s,color .2s,border-color .2s}
+  .btn-brasa{background:var(--brasa);color:#fff}
+  .btn-brasa:hover{background:var(--brasa-hover)}
+  .btn-osso{background:var(--osso);color:var(--carvao)}
+  .btn-osso:hover{background:#fff}
+  .btn-linha-escura{border-color:var(--osso-suave);color:var(--osso)}
+  .btn-linha-escura:hover{border-color:var(--osso);background:rgba(234,223,208,.08)}
+  .btn-linha-clara{border-color:var(--tinta);color:var(--tinta)}
+  .btn-linha-clara:hover{background:var(--tinta);color:var(--giz)}
+
+  /* hero: ripas de madeira + neon que acende uma vez */
+  .hero{position:relative;padding:96px 0 88px;background:
+      repeating-linear-gradient(90deg, rgba(234,223,208,.028) 0 2px, transparent 2px 46px),
+      var(--carvao);overflow:hidden}
+  .hero h1{font-family:var(--display);font-weight:900;text-transform:uppercase;font-size:clamp(3rem,8.5vw,8.5rem);line-height:.88;letter-spacing:-.005em;color:var(--osso);max-width:9.5ch}
+  .neon{display:block;height:6px;width:min(560px,70%);margin-top:30px;background:var(--brasa-vivo);border-radius:3px;box-shadow:0 0 6px var(--brasa-vivo),0 0 22px rgba(224,39,44,.65);transform-origin:left;animation:acende 1.3s cubic-bezier(.2,.7,.2,1) both}
+  @keyframes acende{0%{transform:scaleX(0);opacity:.3}60%{opacity:1}100%{transform:scaleX(1);opacity:1}}
+  .hero .sub{margin-top:30px;max-width:46ch;font-size:1.2rem;color:var(--osso)}
+  .hero-grid{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:48px;align-items:start}
+  .logo{background:var(--logo) center/contain no-repeat;width:224px;height:224px}
+  .hero .logo{margin-top:8px}
+  .localizador{margin-top:44px}
+  .localizador p.titulo{font-weight:700;margin-bottom:14px}
+  .cidades{display:flex;flex-wrap:wrap;gap:12px}
+  .cidades .btn{padding:15px 26px;font-size:1.05rem}
+  .cidades small{display:block;font-weight:400;font-size:.82rem;opacity:.85}
+
+  /* unidades */
+  .unidades-sec{background:var(--giz);color:var(--tinta);padding:84px 0}
+  h2{font-family:var(--display);font-weight:800;text-transform:uppercase;font-size:clamp(2.3rem,5.5vw,3.8rem);line-height:.98;margin-bottom:14px}
+  .intro{max-width:56ch;color:var(--tinta-suave);margin-bottom:34px}
+  .seletor{display:flex;flex-wrap:wrap;gap:10px;align-items:center;margin-bottom:12px}
+  .chip{padding:9px 18px;border:2px solid var(--linha);background:#fff;border-radius:2px;font:inherit;font-weight:500;cursor:pointer;color:var(--tinta);transition:border-color .2s,background .2s,color .2s}
+  .chip:hover{border-color:var(--tinta)}
+  .chip[aria-pressed="true"]{background:var(--tinta);border-color:var(--tinta);color:var(--giz)}
+  .geo{margin-left:auto}
+  .aviso{min-height:1.7em;margin-bottom:18px;color:var(--tinta-suave);font-size:.95rem}
+
+  .lista{border-top:3px solid var(--tinta)}
+  .unidade{display:grid;grid-template-columns:1.15fr 1fr 1.1fr;gap:20px 40px;padding:30px 0 30px 22px;border-bottom:1px solid var(--linha);position:relative}
+  .unidade::before{content:"";position:absolute;left:0;top:30px;bottom:30px;width:6px;background:var(--brasa)}
+  .unidade h3{font-family:var(--display);font-weight:800;text-transform:uppercase;font-size:2.4rem;line-height:1;color:var(--tinta)}
+  .end{margin-top:8px;color:var(--tinta-suave);font-size:.98rem}
+  .status{display:inline-block;margin-top:12px;font-size:.84rem;font-weight:700;padding:3px 10px;border-radius:2px;background:#E6E1DB;color:var(--tinta-suave)}
+  .status.aberto{background:#DCEBDF;color:var(--ok)}
+  .horarios div{display:flex;justify-content:space-between;gap:16px;padding:8px 0;border-bottom:1px solid var(--linha);font-size:.97rem}
+  .horarios div:first-child{padding-top:0}
+  .horarios dt{color:var(--tinta-suave)}
+  .horarios dd{font-weight:500;text-align:right}
+  .nota{font-size:.92rem;color:var(--tinta-suave);margin-bottom:14px}
+  .nota a{color:var(--tinta);font-weight:700}
+  .botoes{display:flex;flex-wrap:wrap;gap:10px}
+  .botoes .btn{padding:11px 20px;font-size:.95rem}
+
+  /* cardápio */
+  .cardapio{background:var(--madeira);padding:84px 0;background-image:repeating-linear-gradient(90deg, rgba(234,223,208,.03) 0 2px, transparent 2px 46px)}
+  .cardapio h2{color:var(--osso)}
+  .cardapio .intro{color:var(--osso-suave)}
+  .pratos{list-style:none;max-width:900px}
+  .pratos li{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.3fr);gap:8px 40px;align-items:baseline;padding:20px 0;border-bottom:1px dashed #5B4638}
+  .pratos li:first-child{border-top:1px dashed #5B4638}
+  .pratos h3{font-family:var(--display);font-weight:800;text-transform:uppercase;font-size:2rem;line-height:1.05;color:var(--osso)}
+  .pratos p{color:var(--osso-suave)}
+  .cardapio .rodape{margin-top:26px;max-width:62ch;color:var(--osso-suave);font-size:.95rem}
+
+  /* clientes */
+  .clientes{background:var(--giz);color:var(--tinta);padding:84px 0}
+  .temas{display:grid;grid-template-columns:repeat(3,1fr);gap:36px;margin-bottom:56px;max-width:980px}
+  .temas h3{font-family:var(--display);font-weight:800;text-transform:uppercase;font-size:1.6rem;line-height:1.05;margin-bottom:6px;color:var(--tinta)}
+  .temas p{color:var(--tinta-suave)}
+  table{width:100%;max-width:760px;border-collapse:collapse}
+  caption{text-align:left;font-weight:700;padding-bottom:10px}
+  th,td{text-align:left;padding:12px 0;border-bottom:1px solid var(--linha)}
+  thead th{border-bottom:3px solid var(--tinta);font-weight:700;font-size:.92rem;color:var(--tinta-suave)}
+  tbody th{font-family:var(--display);font-weight:800;text-transform:uppercase;font-size:1.5rem;line-height:1.1}
+  td.nota-g{font-family:var(--display);font-weight:800;font-size:1.7rem;line-height:1.1}
+  td.qtd{color:var(--tinta-suave)}
+  .fonte{margin-top:18px;font-size:.9rem;color:var(--tinta-suave)}
+
+  footer{background:var(--carvao);padding:44px 0;font-size:.95rem;color:var(--osso-suave);border-top:1px solid #2F241D}
+  footer .wrap{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:16px 24px}
+  footer .logo{width:96px;height:96px}
+  .rodape-marca{display:flex;align-items:center;gap:20px}
+  footer a{color:var(--osso)}
+
+  @media (max-width:860px){
+    .nav ul{display:none}
+    .hero{padding:64px 0 60px}
+    .hero h1{max-width:none;font-size:clamp(3rem,12.5vw,5.5rem);overflow-wrap:break-word}
+    .hero-grid{grid-template-columns:1fr;gap:20px}
+    .hero .logo{order:-1;width:104px;height:104px;margin-top:0}
+    .unidade{grid-template-columns:1fr}
+    .temas{grid-template-columns:1fr;gap:26px}
+    .pratos li{grid-template-columns:1fr}
+    .geo{margin-left:0;width:100%}
+    .unidades-sec,.cardapio,.clientes{padding:60px 0}
+  }
+  @media (prefers-reduced-motion:reduce){
+    html{scroll-behavior:auto}
+    .neon{animation:none}
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="wrap nav">
+    <a class="marca" href="#topo">Sartoni<span>Steakhouse</span></a>
+    <ul>
+      <li><a href="#unidades">Unidades e pedidos</a></li>
+      <li><a href="#cardapio">Cardápio</a></li>
+      <li><a href="#clientes">Avaliações</a></li>
+    </ul>
+    <a class="btn btn-brasa" href="#unidades">Pedir</a>
+  </div>
+</header>
+
+<main id="topo">
+  <div class="hero">
+    <div class="wrap hero-grid">
+      <div class="hero-texto">
+      <h1>Steakhouse de verdade</h1>
+      <span class="neon" aria-hidden="true"></span>
+      <p class="sub">Carnes nobres, petiscos, burgers e drinks em Juiz de Fora, Muriaé e Vila Velha.</p>
+
+      <div class="localizador">
+        <p class="titulo">Onde você está?</p>
+        <div class="cidades">
+          <button class="btn btn-osso" type="button" data-ir="vv">Vila Velha<small>Espírito Santo</small></button>
+          <button class="btn btn-osso" type="button" data-ir="jf">Juiz de Fora<small>Minas Gerais</small></button>
+          <button class="btn btn-osso" type="button" data-ir="mu">Muriaé<small>Minas Gerais</small></button>
+          <button class="btn btn-linha-escura" type="button" id="geo-hero">Usar minha localização</button>
+        </div>
+      </div>
+      </div>
+      <div class="logo" role="img" aria-label="Logotipo da Sartoni"></div>
+    </div>
+  </div>
+
+  <section id="unidades" class="unidades-sec">
+    <div class="wrap">
+      <h2>Unidades e pedidos</h2>
+      <p class="intro">Cada unidade tem seus horários e seu canal de pedido. Escolha a cidade ou deixe o site achar a mais perto de você.</p>
+
+      <div class="seletor" role="group" aria-label="Filtrar unidades por cidade">
+        <button class="chip" type="button" data-filtro="todas" aria-pressed="true">Todas</button>
+        <button class="chip" type="button" data-filtro="vv" aria-pressed="false">Vila Velha (ES)</button>
+        <button class="chip" type="button" data-filtro="jf" aria-pressed="false">Juiz de Fora (MG)</button>
+        <button class="chip" type="button" data-filtro="mu" aria-pressed="false">Muriaé (MG)</button>
+        <button class="btn btn-linha-clara geo" type="button" id="geo-lista">Usar minha localização</button>
+      </div>
+      <p class="aviso" id="aviso" role="status" aria-live="polite"></p>
+
+      <div class="lista">
+
+        <article class="unidade" data-cidade="vv" data-id="vv">
+          <div>
+            <h3>Vila Velha</h3>
+            <p class="end">R. Quinze de Novembro, 630, Praia da Costa<br>Vila Velha, ES</p>
+            <span class="status" data-status></span>
+          </div>
+          <dl class="horarios">
+            <div><dt>Segunda a sexta</dt><dd>18h às 00h</dd></div>
+            <div><dt>Sábado e domingo</dt><dd>11h às 00h</dd></div>
+          </dl>
+          <div>
+            <p class="nota">Telefone <a href="tel:+552735345329">(27) 3534-5329</a></p>
+            <div class="botoes">
+              <a class="btn btn-brasa" href="https://wa.me/message/DQTYZ62UKL3KL1" target="_blank" rel="noopener">Pedir pelo WhatsApp</a>
+              <a class="btn btn-linha-clara" href="https://www.google.com/maps/search/?api=1&query=R.+Quinze+de+Novembro,+630+-+Praia+da+Costa,+Vila+Velha+-+ES" target="_blank" rel="noopener">Como chegar</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="unidade" data-cidade="jf" data-id="alameda">
+          <div>
+            <h3>Alameda</h3>
+            <p class="end">R. Morais e Castro, 300, Passos<br>Shopping Alameda, Juiz de Fora, MG</p>
+            <span class="status" data-status></span>
+          </div>
+          <dl class="horarios">
+            <div><dt>Domingo a quinta</dt><dd>11h às 23h</dd></div>
+            <div><dt>Sexta e sábado</dt><dd>11h às 23h40</dd></div>
+          </dl>
+          <div>
+            <p class="nota">Delivery próprio, com 3 acompanhamentos à sua escolha no Executivo.</p>
+            <div class="botoes">
+              <a class="btn btn-brasa" href="https://app.cardapioweb.com/sartoni_steakhouse" target="_blank" rel="noopener">Fazer pedido online</a>
+              <a class="btn btn-linha-clara" href="https://wa.me/553233211180" target="_blank" rel="noopener">WhatsApp</a>
+              <a class="btn btn-linha-clara" href="https://www.google.com/maps/search/?api=1&query=Sartoni+Steakhouse+Shopping+Alameda+Juiz+de+Fora" target="_blank" rel="noopener">Como chegar</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="unidade" data-cidade="jf" data-id="jardimnorte">
+          <div>
+            <h3>Jardim Norte</h3>
+            <p class="end">Av. Brasil, 6345, Mariano Procópio<br>Shopping Jardim Norte, Juiz de Fora, MG</p>
+            <span class="status" data-status></span>
+          </div>
+          <dl class="horarios">
+            <div><dt>Segunda a quinta</dt><dd>11h às 23h</dd></div>
+            <div><dt>Sexta e sábado</dt><dd>11h às 23h30</dd></div>
+            <div><dt>Domingo</dt><dd>11h às 22h</dd></div>
+          </dl>
+          <div>
+            <p class="nota">Pedidos pelo iFood, com 2 acompanhamentos no Executivo.</p>
+            <div class="botoes">
+              <a class="btn btn-brasa" href="https://www.ifood.com.br/delivery/juiz-de-fora-mg/sartoni-jardim-norte-mariano-procopio/1a4e1bd5-4f96-41af-82d2-f2865e534753" target="_blank" rel="noopener">Pedir no iFood</a>
+              <a class="btn btn-linha-clara" href="https://wa.me/553233218131" target="_blank" rel="noopener">WhatsApp</a>
+              <a class="btn btn-linha-clara" href="https://www.google.com/maps/search/?api=1&query=Sartoni+Steakhouse+Shopping+Jardim+Norte+Juiz+de+Fora" target="_blank" rel="noopener">Como chegar</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="unidade" data-cidade="mu" data-id="muriae">
+          <div>
+            <h3>Muriaé</h3>
+            <p class="end">Av. Dr. Passos, 287, Barra<br>Muriaé, MG</p>
+            <span class="status" data-status></span>
+          </div>
+          <dl class="horarios">
+            <div><dt>Segunda a sexta</dt><dd>18h às 00h</dd></div>
+            <div><dt>Sábado e domingo</dt><dd>11h às 00h</dd></div>
+          </dl>
+          <div>
+            <div class="botoes">
+              <a class="btn btn-brasa" href="https://wa.me/5532999428021" target="_blank" rel="noopener">Pedir pelo WhatsApp</a>
+              <a class="btn btn-linha-clara" href="https://www.google.com/maps/search/?api=1&query=Av.+Dr.+Passos,+287+-+Barra,+Muria%C3%A9+-+MG" target="_blank" rel="noopener">Como chegar</a>
+            </div>
+          </div>
+        </article>
+
+      </div>
+      <p class="fonte">A localização é usada só no seu navegador para achar a cidade mais próxima e não é enviada a lugar nenhum.</p>
+    </div>
+  </section>
+
+  <section id="cardapio" class="cardapio">
+    <div class="wrap">
+      <h2>Destaques do cardápio</h2>
+      <p class="intro">Alguns dos pratos mais pedidos. O cardápio completo e os valores podem variar de uma unidade para outra.</p>
+      <ul class="pratos">
+        <li>
+          <h3>Baby beef</h3>
+          <p>Um dos pratos mais pedidos da casa.</p>
+        </li>
+        <li>
+          <h3>Contrafilé</h3>
+          <p>Corte clássico de steakhouse, preparado na brasa.</p>
+        </li>
+        <li>
+          <h3>Picanha</h3>
+          <p>Muito elogiada por quem já visitou o restaurante.</p>
+        </li>
+        <li>
+          <h3>Croquete de pernil</h3>
+          <p>Petisco para dividir na mesa, ótimo com um chopp gelado.</p>
+        </li>
+        <li>
+          <h3>Special Chicken</h3>
+          <p>Filé de frango grelhado, temperado com especiarias. Está na aba Executivo do delivery.</p>
+        </li>
+      </ul>
+      <p class="rodape">Também tem hambúrgueres, sobremesas e drinks. Pergunte pelas promoções e pelo happy hour na sua unidade.</p>
+    </div>
+  </section>
+
+  <section id="clientes" class="clientes">
+    <div class="wrap">
+      <h2>O que os clientes dizem</h2>
+      <p class="intro">Nas avaliações do Google, três pontos aparecem em todas as unidades.</p>
+
+      <div class="temas">
+        <div>
+          <h3>Atendimento atencioso</h3>
+          <p>Equipes simpáticas, educadas e atentas à mesa.</p>
+        </div>
+        <div>
+          <h3>Ambiente agradável</h3>
+          <p>Salões confortáveis e tranquilos, do almoço ao jantar.</p>
+        </div>
+        <div>
+          <h3>Comida saborosa</h3>
+          <p>Carnes bem preparadas, além de peixes, hambúrgueres e sobremesas.</p>
+        </div>
+      </div>
+
+      <table>
+        <caption>Nota de cada unidade no Google</caption>
+        <thead>
+          <tr><th scope="col">Unidade</th><th scope="col">Nota</th><th scope="col">Avaliações</th></tr>
+        </thead>
+        <tbody>
+          <tr><th scope="row">Vila Velha</th><td class="nota-g">4,9</td><td class="qtd">359</td></tr>
+          <tr><th scope="row">Jardim Norte</th><td class="nota-g">4,9</td><td class="qtd">mais de 400</td></tr>
+          <tr><th scope="row">Alameda</th><td class="nota-g">4,8</td><td class="qtd">mais de 2 mil</td></tr>
+          <tr><th scope="row">Muriaé</th><td class="nota-g">4,6</td><td class="qtd">mais de 100</td></tr>
+        </tbody>
+      </table>
+      <p class="fonte">Fonte: avaliações públicas no Google.</p>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <div class="rodape-marca">
+      <div class="logo" role="img" aria-label="Logotipo da Sartoni"></div>
+      <span>Sartoni Steakhouse, em Vila Velha (ES), Juiz de Fora e Muriaé (MG)</span>
+    </div>
+    <a href="#unidades">Encontrar a unidade mais perto</a>
+  </div>
+</footer>
+
+<script>
+(function(){
+  var chips = document.querySelectorAll('.chip');
+  var cards = document.querySelectorAll('.unidade');
+  var aviso = document.getElementById('aviso');
+  var secao = document.getElementById('unidades');
+  var reduzir = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+  var CIDADES = {
+    vv: {nome:'Vila Velha (ES)', lat:-20.3292, lon:-40.2925},
+    jf: {nome:'Juiz de Fora (MG)', lat:-21.7642, lon:-43.3503},
+    mu: {nome:'Muriaé (MG)', lat:-21.1294, lon:-42.3720}
+  };
+
+  function filtrar(cidade){
+    chips.forEach(function(c){ c.setAttribute('aria-pressed', c.dataset.filtro === cidade ? 'true' : 'false'); });
+    cards.forEach(function(card){ card.hidden = cidade !== 'todas' && card.dataset.cidade !== cidade; });
+  }
+  function irParaUnidades(){
+    secao.scrollIntoView({behavior: reduzir ? 'auto' : 'smooth', block: 'start'});
+  }
+
+  chips.forEach(function(c){
+    c.addEventListener('click', function(){ aviso.textContent = ''; filtrar(c.dataset.filtro); });
+  });
+  document.querySelectorAll('[data-ir]').forEach(function(b){
+    b.addEventListener('click', function(){ aviso.textContent = ''; filtrar(b.dataset.ir); irParaUnidades(); });
+  });
+
+  function km(a, b){
+    var r = Math.PI / 180, R = 6371;
+    var dLat = (b.lat - a.lat) * r, dLon = (b.lon - a.lon) * r;
+    var x = Math.sin(dLat/2)*Math.sin(dLat/2) + Math.cos(a.lat*r)*Math.cos(b.lat*r)*Math.sin(dLon/2)*Math.sin(dLon/2);
+    return 2 * R * Math.asin(Math.sqrt(x));
+  }
+
+  function localizar(){
+    irParaUnidades();
+    if (!navigator.geolocation){
+      aviso.textContent = 'Seu navegador não permite localização. Escolha a cidade acima.';
+      return;
+    }
+    aviso.textContent = 'Buscando a unidade mais perto…';
+    navigator.geolocation.getCurrentPosition(function(pos){
+      var eu = {lat: pos.coords.latitude, lon: pos.coords.longitude};
+      var melhor = null, menor = Infinity;
+      Object.keys(CIDADES).forEach(function(k){
+        var d = km(eu, CIDADES[k]);
+        if (d < menor){ menor = d; melhor = k; }
+      });
+      filtrar(melhor);
+      var n = document.querySelectorAll('.unidade[data-cidade="' + melhor + '"]').length;
+      var msg = (n > 1 ? 'Unidades mais perto de você: ' : 'Unidade mais perto de você: ') + CIDADES[melhor].nome + '.';
+      if (menor > 80) msg += ' Fica a cerca de ' + Math.round(menor) + ' km.';
+      if (n > 1) msg += ' Escolha a que fica melhor para você.';
+      aviso.textContent = msg;
+    }, function(){
+      aviso.textContent = 'Não foi possível pegar sua localização. Escolha a cidade acima.';
+    }, {timeout: 10000});
+  }
+  document.getElementById('geo-hero').addEventListener('click', localizar);
+  document.getElementById('geo-lista').addEventListener('click', localizar);
+
+  /* Aberto agora: horários em minutos desde 00h, por dia (0 = domingo) */
+  var D = 24 * 60;
+  var HOR = {
+    vv:         [[660,D],[1080,D],[1080,D],[1080,D],[1080,D],[1080,D],[660,D]],
+    muriae:     [[660,D],[1080,D],[1080,D],[1080,D],[1080,D],[1080,D],[660,D]],
+    alameda:    [[660,1380],[660,1380],[660,1380],[660,1380],[660,1380],[660,1420],[660,1420]],
+    jardimnorte:[[660,1320],[660,1380],[660,1380],[660,1380],[660,1380],[660,1410],[660,1410]]
+  };
+
+  function agora(){
+    try{
+      var p = new Intl.DateTimeFormat('en-US', {timeZone:'America/Sao_Paulo', weekday:'short', hour:'2-digit', minute:'2-digit', hourCycle:'h23'}).formatToParts(new Date());
+      var o = {}; p.forEach(function(x){ o[x.type] = x.value; });
+      var dias = {Sun:0,Mon:1,Tue:2,Wed:3,Thu:4,Fri:5,Sat:6};
+      return {dia: dias[o.weekday], min: parseInt(o.hour,10)*60 + parseInt(o.minute,10)};
+    }catch(e){ return null; }
+  }
+  function atualizarStatus(){
+    var t = agora();
+    cards.forEach(function(card){
+      var el = card.querySelector('[data-status]');
+      var h = HOR[card.dataset.id];
+      if (!t || !h || t.dia === undefined){ el.hidden = true; return; }
+      var j = h[t.dia];
+      var aberto = t.min >= j[0] && t.min < j[1];
+      el.textContent = aberto ? 'Aberto agora' : 'Fechado agora';
+      el.classList.toggle('aberto', aberto);
+    });
+  }
+  atualizarStatus();
+  setInterval(atualizarStatus, 60000);
+})();
+</script>
+</body>
+</html>
